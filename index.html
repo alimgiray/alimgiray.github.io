@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alim Giray Aytar - CV</title>
+    <style>
+        body {
+            font-family: 'Fira Code', monospace;
+            color: #ffffff;
+            background: #111111;
+            margin: 0;
+            padding: 0;
+            line-height: 1.4;
+        }
+        header {
+            background: linear-gradient(45deg, #ff0081, #4c00ff);
+            padding: 15px;
+            text-align: center;
+            color: #ffffff;
+            border-bottom: 2px solid #ffffff;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 15px;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 0;
+        }
+        h2 {
+            font-size: 1.5em;
+            border-bottom: 2px solid #ffffff;
+            padding-bottom: 5px;
+            margin-top: 0;
+            color: #ff0081;
+        }
+        section {
+            margin-bottom: 15px;
+        }
+        a {
+            text-decoration: none;
+            color: inherit; /* This keeps the color of the link consistent with the surrounding text */
+        }
+        .skills, .experience, .education, .projects, .contact, .about {
+            background: #222222;
+            border-radius: 8px;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .contact {
+            padding-bottom: 0;
+        }
+        .skills ul, .experience ul, .education ul, .projects ul {
+            list-style: none;
+            padding: 0;
+        }
+        .experience li, .education li {
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .experience li, .contact li {
+            display: block;
+            margin-bottom: 16px;
+        }
+        .skills li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 5px;
+        }
+        .skills i {
+            font-size: 18px;
+            margin-right: 8px;
+            color: #ff0081;
+        }
+        .skills span {
+            display: flex;
+            align-items: center;
+        }
+        .skills span i {
+            margin-right: 10px; /* Adjust as needed */
+        }
+        .skills .text {
+            flex-grow: 1;
+        }
+        .years {
+            font-size: 0.9em;
+            color: #cccccc;
+        }
+        .experience .details {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+        }
+        .experience .details span {
+            font-weight: 700;
+            color: #ff0081;
+            background: #333333;
+            padding: 5px;
+            border-radius: 4px;
+        }
+        .experience .role, .projects .role {
+            font-weight: 700;
+            color: #ff0081;
+            background: #333333;
+            padding: 5px;
+            border-radius: 4px;
+        }
+        .experience .company {
+            font-weight: 700;
+            color: #cccccc;
+            background: #333333;
+            padding: 5px;
+            border-radius: 4px;
+        }
+        .experience p, .projects p {
+            margin: 0;
+            padding: 0;
+        }
+        .projects li {
+            margin-bottom: 16px;
+        }
+        .projects .details {
+            margin-bottom: 8px;
+        }
+        .contact ul {
+            display: flex;
+            justify-content: center;
+        }
+        .contact li {
+            margin-right: 15px;
+        }
+        .contact i {
+            margin-right: 5px;
+        }
+        .about {
+            font-style: italic;
+            text-align: center;
+            color: #cccccc;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Alim Giray Aytar</h1>
+        <p>Senior Dev & Tech Lead | Quality-Focused | Open Source Advocate</p>
+    </header>
+    <div class="container">
+        <section class="contact">
+            <h2>Contact</h2>
+            <ul>
+                <li><i class="fas fa-phone"></i>+90 545 638 7826</li>
+                <li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/alimgiray" target="_blank" style="color: #ff0081;">LinkedIn</a></li>
+                <li><i class="fas fa-envelope"></i><a href="mailto:alimgiray@gmail.com" style="color: #ff0081;">Email</a></li>
+                <li><i class="fab fa-github"></i><a href="https://github.com/alimgiray" target="_blank" style="color: #ff0081;">GitHub</a></li>
+            </ul>
+        </section>
+        <section class="about">
+            <p>Passionate developer and tech lead with a strong focus on quality, open source contributions, and a product-minded approach to engineering.</p>
+        </section>
+        <section class="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><i class="fab fa-golang"></i>Golang <span class="years">(6 years)</span></li>
+                <li><i class="fas fa-database"></i>Databases (PostgreSQL, MySQL, Oracle, MongoDB) <span class="years">(12 years)</span></li>
+                <li>
+                    <span><i class="fab fa-java"></i><i class="fab fa-node-js"></i><i class="fab fa-php"></i></span>
+                    Various Languages <span class="years">(3 years each)</span>
+                </li>
+                <li><i class="fas fa-users"></i>Team Leadership & Management <span class="years">(3 years)</span></li>
+                <li><i class="fas fa-chalkboard-teacher"></i>Mentoring <span class="years">(3 years)</span></li>
+            </ul>
+        </section>         
+        <section class="experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <div class="details">
+                        <span class="role">Team Lead - Paribu</span>
+                        <span>Nov 2022 - Present</span>
+                    </div>
+                    <p>Playing an extremely technical role, including coding, conducting code reviews, managing developer workloads, and mentoring a team of 10. Also involved in product planning and some cryptography tasks. Tech stack includes Golang, PostgreSQL, and Blockchain/Bitcoin technologies.</p>
+                </li>
+                <li>
+                    <div class="details">
+                        <span class="role">Senior Golang Developer - Proxify</span>
+                        <span>May 2022 - Nov 2022</span>
+                    </div>
+                    <p>Performed advanced development tasks, including coding, code reviews, and implementing complex fintech solutions. Acted as a senior member of the development team, providing guidance and ensuring code quality. Tech stack included Golang and MySQL.</p>
+                </li>
+                <li>
+                    <div class="details">
+                        <span class="role">Team Lead - Sensgreen</span>
+                        <span>Jun 2021 - May 2022</span>
+                    </div>
+                    <p>Led the development of the entire backend system from scratch, including writing Node.js and Golang code. Mentored other developers and managed the development of IoT solutions. Utilized RabbitMQ and React in various projects.</p>
+                </li>
+                <li>
+                    <div class="details">
+                        <span class="role">Founding Engineer - CodersRank</span>
+                        <span>Jun 2019 - Jun 2021</span>
+                    </div>
+                    <p>Contributed as a full-stack engineer, writing Golang and Vue.js code, developing crawlers, and performing DevOps tasks. Played a crucial role in establishing the company's initial technology stack and infrastructure.</p>
+                </li>
+                <li>
+                    <div class="details">
+                        <span class="role">Software Engineer - Innova</span>
+                        <span>Jun 2017 - Feb 2019</span>
+                    </div>
+                    <p>Worked on two major projects in telecommunications, one with 35 million users. Developed backend solutions using Java Spring, Vue.js, and Kafka.</p>
+                </li>
+                <li>
+                    <div class="details">
+                        <span class="role">Co-Founder - Duvar.TV</span>
+                        <span>Jan 2016 - Jun 2017</span>
+                    </div>
+                    <p>Developed and maintained applications using Java, PHP, and JavaScript. Oversaw the startup's technical aspects and contributed to various projects during its growth phase.</p>
+                </li>
+                <li>
+                    <div class="details">
+                        <span class="role">Part Time Student Engineer</span>
+                        <span>2012 - 2016</span>
+                    </div>
+                    <p>Worked on various projects involving PHP, JavaScript, CSS, and HTML. Gained experience in front-end and back-end development while studying.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li>
+                    <div class="details">
+                        <span class="role">
+                            <a href="https://infdex.com" target="_blank">
+                                <i class="fas fa-laptop-code" style="color: #cccccc;"></i>
+                            </a>
+                            Infdex
+                        </span>
+                    </div>
+                    <p>A social media tracking project that tracks around 100,000 accounts in real-time and provides analytics for marketing firms. <i class="fab fa-golang" style="color: #ff0081;"></i> <i class="fab fa-node-js" style="color: #ff0081;"></i></p>
+                </li>                
+                <li>
+                    <div class="details">
+                        <span class="role">Avukatoryum</span>
+                    </div>
+                    <p>A QA app for lawyers and people who need legal services. <i class="fab fa-node-js" style="color: #ff0081;"></i> <i class="fab fa-react" style="color: #ff0081;"></i></p>
+                </li>
+                <li>
+                    <div class="details">
+                        <span class="role">Bukurs</span>
+                    </div>
+                    <p>An education platform similar to Udemy. <i class="fab fa-node-js" style="color: #ff0081;"></i> <i class="fab fa-vuejs" style="color: #ff0081;"></i></p>
+                </li>
+                <li>
+                    <div class="details">
+                        <span class="role">
+                            <a href="https://github.com/alimgiray/bostorgay" target="_blank">
+                                <i class="fab fa-github" style="color: #cccccc;"></i>
+                            </a>
+                            Bostorgay
+                        </span>
+                    </div>
+                    <p>A self-hosted music streaming service. <i class="fab fa-node-js" style="color: #ff0081;"></i> <i class="fab fa-vuejs" style="color: #ff0081;"></i></p>
+                </li>
+                               
+            </ul>
+        </section>
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <strong>Bachelor's degree in computer science</strong> Hacettepe University, 2016
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
