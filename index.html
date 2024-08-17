@@ -142,6 +142,36 @@
             text-align: center;
             color: #cccccc;
         }
+
+        @media (max-width: 600px) {
+            .contact {
+                padding-bottom: 10px;
+            }
+            .contact ul {
+                display: block; /* Stack items vertically */
+                text-align: center; /* Center align the text */
+                padding: 0; /* Remove any padding */
+            }
+            .contact li {
+                margin: 10px 0; /* Add vertical margin for spacing */
+                display: flex;
+                justify-content: center; /* Center items horizontally */
+                align-items: center; /* Align items vertically */
+            }
+            .contact i {
+                margin-right: 8px; /* Adjust margin for better spacing */
+                font-size: 18px; /* Optional: Adjust icon size for mobile */
+            }
+            .contact a {
+                color: #ff0081; /* Ensure link color matches */
+                text-decoration: none; /* Remove underline */
+            }
+            .contact a:hover {
+                text-decoration: underline; /* Add underline on hover */
+            }
+            
+        }
+
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -168,10 +198,9 @@
             <h2>Skills</h2>
             <ul>
                 <li><i class="fab fa-golang"></i>Golang <span class="years">(6 years)</span></li>
-                <li><i class="fas fa-database"></i>Databases (PostgreSQL, MySQL, Oracle, MongoDB) <span class="years">(12 years)</span></li>
                 <li>
                     <span><i class="fab fa-java"></i><i class="fab fa-node-js"></i><i class="fab fa-php"></i></span>
-                    Various Languages <span class="years">(3 years each)</span>
+                    Other Languages <span class="years">(3 years each)</span>
                 </li>
                 <li><i class="fas fa-users"></i>Team Leadership & Management <span class="years">(3 years)</span></li>
                 <li><i class="fas fa-chalkboard-teacher"></i>Mentoring <span class="years">(3 years)</span></li>
@@ -185,49 +214,49 @@
                         <span class="role">Team Lead - Paribu</span>
                         <span>Nov 2022 - Present</span>
                     </div>
-                    <p>Playing an extremely technical role, including coding, conducting code reviews, managing developer workloads, and mentoring a team of 10. Also involved in product planning and some cryptography tasks. Tech stack includes Golang, PostgreSQL, and Blockchain/Bitcoin technologies.</p>
+                    <p>Playing an extremely technical role, including coding, conducting code reviews, managing developer workloads, and mentoring a team of 10. Also involved in product planning and some cryptography tasks. <i class="fab fa-golang" style="color: #ff0081;"></i> <i class="fab fa-bitcoin" style="color: #ff0081;"></i> <i class="fas fa-database" style="color: #ff0081;"></i></p>
                 </li>
                 <li>
                     <div class="details">
                         <span class="role">Senior Golang Developer - Proxify</span>
                         <span>May 2022 - Nov 2022</span>
                     </div>
-                    <p>Performed advanced development tasks, including coding, code reviews, and implementing complex fintech solutions. Acted as a senior member of the development team, providing guidance and ensuring code quality. Tech stack included Golang and MySQL.</p>
+                    <p>Performed advanced development tasks, including coding, code reviews, and implementing complex fintech solutions. Acted as a senior member of the development team, providing guidance and ensuring code quality. <i class="fab fa-golang" style="color: #ff0081;"></i> <i class="fas fa-database" style="color: #ff0081;"></i></p>
                 </li>
                 <li>
                     <div class="details">
                         <span class="role">Team Lead - Sensgreen</span>
                         <span>Jun 2021 - May 2022</span>
                     </div>
-                    <p>Led the development of the entire backend system from scratch, including writing Node.js and Golang code. Mentored other developers and managed the development of IoT solutions. Utilized RabbitMQ and React in various projects.</p>
+                    <p>Led the development of the entire backend system from scratch, including writing Node.js and Golang code. Mentored other developers and managed the development of IoT solutions. <i class="fas fa-gear" style="color: #ff0081;"></i> <i class="fab fa-node-js" style="color: #ff0081;"></i> <i class="fab fa-react" style="color: #ff0081;"></i></p>
                 </li>
                 <li>
                     <div class="details">
                         <span class="role">Founding Engineer - CodersRank</span>
                         <span>Jun 2019 - Jun 2021</span>
                     </div>
-                    <p>Contributed as a full-stack engineer, writing Golang and Vue.js code, developing crawlers, and performing DevOps tasks. Played a crucial role in establishing the company's initial technology stack and infrastructure.</p>
+                    <p>Contributed as a full-stack engineer, writing Golang and Vue.js code, developing crawlers, and performing DevOps tasks. Played a crucial role in establishing the company's initial technology stack and infrastructure. <i class="fab fa-golang" style="color: #ff0081;"></i> <i class="fab fa-node-js" style="color: #ff0081;"></i> <i class="fab fa-vuejs" style="color: #ff0081;"></i></p>
                 </li>
                 <li>
                     <div class="details">
                         <span class="role">Software Engineer - Innova</span>
                         <span>Jun 2017 - Feb 2019</span>
                     </div>
-                    <p>Worked on two major projects in telecommunications, one with 35 million users. Developed backend solutions using Java Spring, Vue.js, and Kafka.</p>
+                    <p>Worked on two major projects in telecommunications, for 35 million users. Developed backend solutions using Java Spring, Vue.js, and Kafka. <i class="fab fa-java" style="color: #ff0081;"></i> <i class="fab fa-vuejs" style="color: #ff0081;"></i></p>
                 </li>
                 <li>
                     <div class="details">
                         <span class="role">Co-Founder - Duvar.TV</span>
                         <span>Jan 2016 - Jun 2017</span>
                     </div>
-                    <p>Developed and maintained applications using Java, PHP, and JavaScript. Oversaw the startup's technical aspects and contributed to various projects during its growth phase.</p>
+                    <p>Developed and maintained applications using Java, PHP, and JavaScript. Oversaw the startup's technical aspects and contributed to various projects during its growth phase. <i class="fab fa-java" style="color: #ff0081;"></i> <i class="fab fa-php" style="color: #ff0081;"></i></p>
                 </li>
                 <li>
                     <div class="details">
                         <span class="role">Part Time Student Engineer</span>
                         <span>2012 - 2016</span>
                     </div>
-                    <p>Worked on various projects involving PHP, JavaScript, CSS, and HTML. Gained experience in front-end and back-end development while studying.</p>
+                    <p>Worked on various projects involving PHP, JavaScript, CSS, and HTML. Gained experience in front-end and back-end development while studying. <i class="fab fa-php" style="color: #ff0081;"></i> <i class="fab fa-html5" style="color: #ff0081;"></i> <i class="fab fa-css3-alt" style="color: #ff0081;"></i></p>
                 </li>
             </ul>
         </section>
